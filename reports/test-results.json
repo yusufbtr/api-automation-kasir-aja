@@ -1,0 +1,846 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 46,
+    "passes": 46,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-11T14:56:19.373Z",
+    "end": "2023-02-11T14:56:49.081Z",
+    "duration": 29708
+  },
+  "tests": [
+    {
+      "title": "TC-001-Registrasi User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-001-Registrasi User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1780,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-002-Registrasi User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-002-Registrasi User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 648,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-003-Registrasi User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-003-Registrasi User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 861,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-004-Registrasi User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-004-Registrasi User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 283,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-005-Registrasi User: Nama tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-005-Registrasi User: Nama tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 795,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-006-Login User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-006-Login User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1023,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-007-Login User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-007-Login User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 651,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-008-Login User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-008-Login User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 947,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-009-Login User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-009-Login User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-010-Login User: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-010-Login User: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 319,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-011-Create User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-011-Create User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 633,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-012-Create User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-012-Create User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 584,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-013-Create User: User berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-013-Create User: User berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 613,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-014-Create User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-014-Create User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 266,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-015-Create User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-015-Create User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 328,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-016-Create User: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-016-Create User: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1578,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-017-Get User Detail: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-017-Get User Detail: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 761,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-018-Get User Detail: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-018-Get User Detail: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-019-Get User Detail: User berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-019-Get User Detail: User berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 785,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-020-Get User Detail: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-020-Get User Detail: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 274,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-021-Get User Detail: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-021-Get User Detail: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 278,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-022-Get User Detail: ID tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-022-Get User Detail: ID tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 916,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-023-Get User List: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-023-Get User List: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 285,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-024-Get User List: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-024-Get User List: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 313,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-025-Update User: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-025-Update User: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 775,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-026-Update User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-026-Update User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 843,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-027-Update User: User berhasil diupdate",
+      "fullTitle": "Kasir Aja API Automation TC-027-Update User: User berhasil diupdate",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 812,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-028-Update User: update name to update-palugada",
+      "fullTitle": "Kasir Aja API Automation TC-028-Update User: update name to update-palugada",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 267,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-029-Update User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-029-Update User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1709,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-030-Update User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-030-Update User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 857,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-031-Update User: Nama tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-031-Update User: Nama tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 889,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-032-Update User: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-032-Update User: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 893,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-033-Update User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-033-Update User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 777,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-034-Update User: id tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-034-Update User: id tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-035-Delete User: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-035-Delete User: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 783,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-036-Delete User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-036-Delete User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 719,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-037-User: User berhasil dihapus",
+      "fullTitle": "Kasir Aja API Automation TC-037-User: User berhasil dihapus",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 861,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-038-Delete User: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-038-Delete User: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 316,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-039-Delete User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-039-Delete User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 763,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-040-Delete User: ID tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-040-Delete User: ID tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 852,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-041-Add Unit: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-041-Add Unit: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 283,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-042-Add Unit: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-042-Add Unit: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 268,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-043-Add Unit: Unit berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-043-Add Unit: Unit berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 280,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-044-Add Unit: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-044-Add Unit: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 288,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-045-Add Unit: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-045-Add Unit: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 321,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-046-Add Unit: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-046-Add Unit: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 301,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "TC-001-Registrasi User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-001-Registrasi User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1780,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-002-Registrasi User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-002-Registrasi User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 648,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-003-Registrasi User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-003-Registrasi User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 861,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-004-Registrasi User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-004-Registrasi User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 283,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-005-Registrasi User: Nama tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-005-Registrasi User: Nama tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 795,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-006-Login User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-006-Login User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1023,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-007-Login User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-007-Login User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 651,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-008-Login User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-008-Login User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 947,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-009-Login User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-009-Login User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-010-Login User: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-010-Login User: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 319,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-011-Create User: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-011-Create User: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 633,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-012-Create User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-012-Create User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 584,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-013-Create User: User berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-013-Create User: User berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 613,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-014-Create User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-014-Create User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 266,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-015-Create User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-015-Create User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 328,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-016-Create User: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-016-Create User: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1578,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-017-Get User Detail: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-017-Get User Detail: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 761,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-018-Get User Detail: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-018-Get User Detail: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-019-Get User Detail: User berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-019-Get User Detail: User berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 785,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-020-Get User Detail: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-020-Get User Detail: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 274,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-021-Get User Detail: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-021-Get User Detail: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 278,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-022-Get User Detail: ID tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-022-Get User Detail: ID tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 916,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-023-Get User List: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-023-Get User List: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 285,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-024-Get User List: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-024-Get User List: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 313,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-025-Update User: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-025-Update User: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 775,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-026-Update User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-026-Update User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 843,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-027-Update User: User berhasil diupdate",
+      "fullTitle": "Kasir Aja API Automation TC-027-Update User: User berhasil diupdate",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 812,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-028-Update User: update name to update-palugada",
+      "fullTitle": "Kasir Aja API Automation TC-028-Update User: update name to update-palugada",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 267,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-029-Update User: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-029-Update User: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 1709,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-030-Update User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-030-Update User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 857,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-031-Update User: Nama tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-031-Update User: Nama tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 889,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-032-Update User: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-032-Update User: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 893,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-033-Update User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-033-Update User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 777,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-034-Update User: id tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-034-Update User: id tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-035-Delete User: response status is 200",
+      "fullTitle": "Kasir Aja API Automation TC-035-Delete User: response status is 200",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 783,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-036-Delete User: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-036-Delete User: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 719,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-037-User: User berhasil dihapus",
+      "fullTitle": "Kasir Aja API Automation TC-037-User: User berhasil dihapus",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 861,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-038-Delete User: response status is 404",
+      "fullTitle": "Kasir Aja API Automation TC-038-Delete User: response status is 404",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 316,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-039-Delete User: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-039-Delete User: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 763,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-040-Delete User: ID tidak valid",
+      "fullTitle": "Kasir Aja API Automation TC-040-Delete User: ID tidak valid",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 852,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-041-Add Unit: response status is 201",
+      "fullTitle": "Kasir Aja API Automation TC-041-Add Unit: response status is 201",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 283,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-042-Add Unit: status is success",
+      "fullTitle": "Kasir Aja API Automation TC-042-Add Unit: status is success",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 268,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-043-Add Unit: Unit berhasil ditambahkan",
+      "fullTitle": "Kasir Aja API Automation TC-043-Add Unit: Unit berhasil ditambahkan",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 280,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-044-Add Unit: response status is 400",
+      "fullTitle": "Kasir Aja API Automation TC-044-Add Unit: response status is 400",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 288,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-045-Add Unit: status is fail",
+      "fullTitle": "Kasir Aja API Automation TC-045-Add Unit: status is fail",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 321,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "TC-046-Add Unit: Password tidak boleh kosong",
+      "fullTitle": "Kasir Aja API Automation TC-046-Add Unit: Password tidak boleh kosong",
+      "file": "E:\\Gate2\\Materi Belajar\\Sanbercode\\api-automation-kasir-aja\\test\\kasir-aja.js",
+      "duration": 301,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}

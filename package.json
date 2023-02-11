@@ -1,0 +1,27 @@
+{
+  "name": "api-automation-kasir-aja",
+  "version": "1.0.0",
+  "description": "Api Automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 20000 && mocha --reporter json > reports/test-results.json",
+    "reports": "mocha --reporter mochawesome'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufbtr/api-automation-kasir-aja.git"
+  },
+  "author": "yusufb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusufbtr/api-automation-kasir-aja/issues"
+  },
+  "homepage": "https://github.com/yusufbtr/api-automation-kasir-aja#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}
