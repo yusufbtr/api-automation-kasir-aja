@@ -28,7 +28,7 @@ Link to screenrecord and screenshots of program execution:
   ```
 
 
-### Run test result report location:
+### Test result report location:
   ```sh
 > api-automation-kasir-aja/reports/test-results.json
   ```
